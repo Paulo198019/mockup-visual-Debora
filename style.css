@@ -1,0 +1,15 @@
+body{margin:0;font-family:Arial,sans-serif;}
+.banner{position:relative;background:url('assets/banner.jpg') center/cover no-repeat;height:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.banner .overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(11,61,145,0.7);z-index:1;}
+.logo{position:relative;z-index:2;max-width:200px;}
+.menu{position:relative;z-index:2;margin-top:10px;}
+#menu-list{display:none;list-style:none;padding:0;}
+#menu-list li{margin:5px 0;}
+#menu-list a{color:#fff;text-decoration:none;font-weight:bold;}
+#menu-toggle{background:none;border:none;color:#fff;font-size:24px;cursor:pointer;}
+.hero{text-align:center;padding:40px;color:#fff;position:relative;z-index:2;}
+.sobre-container{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;padding:40px;}
+.sobre-img img{max-width:400px;border-radius:8px;}
+.sobre-texto{max-width:400px;}
+.cards{display:flex;flex-wrap:wrap;gap:20px;justify-content:center;padding:20px;}
+.card{background:#f4f4f4;padding:20px;border-radius:8px;width:250px;text-align:center;}
